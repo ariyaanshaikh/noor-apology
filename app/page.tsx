@@ -59,7 +59,7 @@ export default function Home() {
           <span className="envelope-shadow" />
           <span className="envelope-back" />
           <span className="paper-preview">
-            <span>for my favourite person</span>
+            <span>for Noor, my favourite person</span>
             <b>♥</b>
           </span>
           <span className="envelope-front" />
@@ -77,7 +77,7 @@ export default function Home() {
       <section id="letter" className={`letter-section ${opened ? "revealed" : ""}`}>
         <div className="letter-card">
           <div className="letter-topline">
-            <span>Dear love,</span>
+            <span>Dear Noor,</span>
             <span className="date">from someone who cares deeply</span>
           </div>
 
@@ -85,30 +85,33 @@ export default function Home() {
 
           <div className="letter-body">
             <p>
-              I&apos;ve replayed what happened, and I keep coming back to the
-              same truth: <strong>I hurt you, and you didn&apos;t deserve that.</strong>
+              I know I am a mess sometimes, but that never means I should
+              bring that mess into your life. I&apos;m trying every day to be
+              better for you. And I keep coming back to the same truth:
+              <strong> I hurt you, and you didn&apos;t deserve that.</strong>
             </p>
             <p>
-              I&apos;m not here to defend myself or make the moment smaller. I
-              want to own my mistake. Your feelings matter to me, and knowing
-              that my actions made you feel anything less than loved is
-              something I am genuinely sorry for.
+              I know yesterday was not good. I understand what you may have
+              thought after seeing those things, and I&apos;m not here to dismiss
+              your perspective. Trust me, Noor: I had not gone through that
+              folder, and I had not remembered it either. Still, I&apos;m ashamed
+              that it hurt you and made you feel this way.
             </p>
             <blockquote>
-              “You are too important to me for pride to stand where honesty
-              should be.”
+              “Galti hui hai toh maan liya humne,<br />
+              Tumhe rula kar khud ko haar liya humne.”
             </blockquote>
             <p>
-              I can&apos;t undo the moment, but I can learn from it. I want to be
-              softer with your heart, more thoughtful with my words, and more
-              present in the moments that matter. Not for a day—for all the
-              days that follow.
+              I can&apos;t undo the moment, but I can learn from it. I am ashamed
+              of myself, because you don&apos;t deserve to be hurt—not by anyone,
+              and especially not by me. I want to be softer with your heart,
+              more thoughtful with my words, and more present in the moments
+              that matter.
             </p>
             <p>
-              I love the little things about us: the conversations that run
-              too long, the smiles only we understand, and how ordinary days
-              feel special with you in them. I never want to take any of it,
-              or you, for granted.
+              Please ek baar maaf kardo. Apne BUBU ko maaf kardo. Tumhare bina
+              tumhara BUBU adhura hai. I will keep showing you, every day,
+              that I can be better—for you and for us.
             </p>
           </div>
 
@@ -146,10 +149,10 @@ export default function Home() {
             <>
               <span className="tiny-heart" aria-hidden="true">♥</span>
               <p className="eyebrow">One gentle question</p>
-              <h2>Can we begin again?</h2>
+              <h2>Noor, can you forgive your BUBU?</h2>
               <p className="question-copy">
-                No pressure, no perfect ending—just me hoping for the chance
-                to make things right.
+                I&apos;m sorry. I will always value you, listen to you, and work
+                to deserve your trust.
               </p>
               <div className="actions">
                 <button className="primary-button" onClick={() => setAnswer("forgiven")}>
@@ -176,11 +179,11 @@ export default function Home() {
             </div>
           ) : (
             <div className="response" role="status">
-              <span className="response-icon">☾</span>
-              <h2>I understand.</h2>
+              <span className="response-icon">♥</span>
+              <h2>I understand, Noor.</h2>
               <p>
-                Take all the time you need. I care about you enough to respect
-                your space, and my apology will still be here when you&apos;re ready.
+                Take the time you need. I&apos;ll respect your space and keep doing
+                the work to be better, because you matter deeply to me.
               </p>
             </div>
           )}
