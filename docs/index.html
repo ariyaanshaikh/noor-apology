@@ -3,57 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#6f2435" />
-    <title>A Little Note From My Heart</title>
-    <meta name="description" content="A sincere apology for Noor, written with love and a hopeful heart." />
+    <meta name="theme-color" content="#443075" />
+    <title>Happy Princess Day, Noor</title>
+    <meta name="description" content="A fairytale Princess Day surprise made especially for Noor." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500;1,600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=DM+Sans:wght@400;500;700&family=Great+Vibes&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main>
-      <section class="hero">
-        <p class="eyebrow">A little note from my heart</p>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="stars" aria-hidden="true"></div>
+        <div class="moon" aria-hidden="true"></div>
+        <div class="castle" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+        <p class="eyebrow">A royal proclamation</p>
         <div class="hero-copy">
-          <h1>I owe you more than <em>just a sorry.</em></h1>
-          <p>So I made a little space for the words I should have said with more care.</p>
+          <span class="crown" aria-hidden="true">♕</span>
+          <h1 id="hero-title">Happy <em>Princess Day</em>, Noor</h1>
+          <p>Today is for the girl who brings a little more magic into every ordinary day.</p>
+          <button id="open-wish" class="royal-button">Open your royal wish <span>✦</span></button>
         </div>
-        <button id="envelope" class="envelope" aria-expanded="false" aria-controls="letter">
-          <span class="paper">for Noor, my favourite person<br /><b>♥</b></span>
-          <span class="back"></span><span class="front"></span><span class="flap"></span><span class="seal">A</span>
-          <small>tap to open</small>
-        </button>
+        <p class="scroll-note">A fairytale made for you</p>
       </section>
-
-      <section id="letter" class="letter-section">
+      <section id="wish" class="wish-section" aria-label="A Princess Day letter for Noor">
+        <div class="sparkle-trail" aria-hidden="true">✦　·　✧　·　✦　·　✧　·　✦</div>
         <article class="letter">
-          <header><i>Dear Noor,</i><span>from someone who cares deeply</span></header>
-          <h2>I&apos;m truly sorry.</h2>
+          <div class="letter-top"><span>Princess Noor</span><span>your special day</span></div>
+          <span class="little-crown" aria-hidden="true">♕</span>
+          <h2>Once upon a day,<br /><em>there was you.</em></h2>
           <div class="letter-body">
-            <p>I know I am a mess sometimes, but that never means I should bring that mess into your life. I&apos;m trying every day to be better for you. And I keep coming back to the same truth: <strong>I hurt you, and you didn&apos;t deserve that.</strong></p>
-            <p>I know yesterday was not good. I understand what you may have thought after seeing those things, and I&apos;m not here to dismiss your perspective. Trust me, Noor: I had not gone through that folder, and I had not remembered it either. Still, I&apos;m ashamed that it hurt you and made you feel this way.</p>
-            <blockquote>“Galti hui hai toh maan liya humne,<br />Tumhe rula kar khud ko haar liya humne.”</blockquote>
-            <p>I can&apos;t undo the moment, but I can learn from it. I am ashamed of myself, because you don&apos;t deserve to be hurt—not by anyone, and especially not by me. I want to be softer with your heart, more thoughtful with my words, and more present in the moments that matter.</p>
-            <p>Please ek baar maaf kardo. Apne BUBU ko maaf kardo. Tumhare bina tumhara BUBU adhura hai. I will keep showing you, every day, that I can be better—for you and for us.</p>
+            <p>Not the kind of princess who needs a castle to shine—because you already carry your own light wherever you go.</p>
+            <p>You make little moments feel special, turn ordinary days into memories, and somehow make the world feel warmer just by being in it.</p>
+            <blockquote>May your crown always sit straight,<br />your heart stay soft, and your smile<br />always find its way back to you.</blockquote>
+            <p>On Princess Day, I just want you to remember this: you deserve all the joy, wonder, kindness, and magic that life can bring.</p>
           </div>
-          <footer>With all my heart,<strong>your BUBU</strong><b>♥</b></footer>
+          <footer>With a little magic, <strong>your BUBU</strong><b>✦</b></footer>
         </article>
       </section>
-
-      <section class="promises">
-        <p class="eyebrow">Because words need actions</p><h2>What I promise you</h2>
-        <div class="promise"><span>01</span><div><h3>I will listen</h3><p>Not just wait for my turn to speak. Your feelings deserve my full attention.</p></div></div>
-        <div class="promise"><span>02</span><div><h3>I will show up</h3><p>With patience, honesty, and the kind of care that is felt—not merely promised.</p></div></div>
-        <div class="promise"><span>03</span><div><h3>I will do better</h3><p>I know an apology matters only when my actions after it are different.</p></div></div>
-      </section>
-
-      <section class="question">
-        <div id="question-card" class="question-card">
-          <span>♥</span><p class="eyebrow">From my heart</p>
-          <h2>Noor, I&apos;m sorry.</h2>
-          <p>I&apos;m sorry. I will always value you, listen to you, and work to deserve your trust.</p>
+      <section class="gifts" aria-labelledby="gifts-title">
+        <p class="eyebrow">Your royal reminders</p>
+        <h2 id="gifts-title">Three things a princess<br /><em>should never forget</em></h2>
+        <div class="gift-grid">
+          <article><span>✦</span><h3>You are radiant</h3><p>Your glow is yours alone. Never let anyone make you forget it.</p></article>
+          <article><span>♥</span><h3>You are cherished</h3><p>More than words can say, in all the little ways that truly matter.</p></article>
+          <article><span>♕</span><h3>You are magic</h3><p>Not because of a crown—because of the heart that wears it.</p></article>
         </div>
+      </section>
+      <section class="finale">
+        <div class="finale-stars" aria-hidden="true">✦　✧　·　✦　·　✧　✦</div>
+        <p class="eyebrow">One last wish</p>
+        <h2>Keep shining,<br /><em>Princess Noor.</em></h2>
+        <p>May your day feel as lovely as the magic you bring into mine.</p>
+        <button id="celebrate" class="royal-button">Make a wish <span>✦</span></button>
+        <div id="wish-message" class="wish-message" role="status" aria-live="polite"></div>
       </section>
     </main>
     <script src="script.js"></script>
